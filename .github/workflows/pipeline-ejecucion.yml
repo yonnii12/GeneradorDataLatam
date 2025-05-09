@@ -1,4 +1,4 @@
-name: Java CI + CSV Artifact 🚀
+name: Ejecucion de pruebas y archivo csv
 
 on:
   push:

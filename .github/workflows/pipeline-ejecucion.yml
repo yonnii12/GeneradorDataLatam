@@ -1,4 +1,4 @@
-name: Ejecucion de pruebas y archivo csv
+name: Ejecucion de pipeline reusable
 
 on:
   workflow_dispatch:

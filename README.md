@@ -55,7 +55,7 @@ git clone https://github.com/yonnii12/GeneradorDataLatam.git
 
 2. Haz clic en la pestaña "Actions"
 
-3. Selecciona el workflow llamado: "Ejecucion de pruebas y archivo csv"
+3. Selecciona el workflow llamado: "Ejecucion de pipeline reusable"
 
 4. Haz clic en el botón "Run workflow"
 

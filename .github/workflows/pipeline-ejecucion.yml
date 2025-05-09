@@ -1,13 +1,15 @@
 name: Ejecucion de pruebas y archivo csv
 
 on:
-  push:
-    branches: ["*"]
-  pull_request:
-    branches: ["*"]
+  workflow_dispatch:
+    inputs:
+      cantidad:
+        description: 'Cantidad de registros a generar'
+        required: true
+        default: '100'
 
 jobs:
-  build-test:
+  generar-csv:
     runs-on: ubuntu-latest
 
     steps:

@@ -27,7 +27,7 @@ jobs:
         run: mvn package
 
       - name: Ejecutar generador de usuarios
-        run: mvn exec:java -Dexec.mainClass="com.latam.App" -Dexec.args="10"
+        run: mvn exec:java -Dexec.mainClass="com.latam.App" -Dexec.args="100"
 
       - name: Subir users.csv como artifact
         uses: actions/upload-artifact@v4

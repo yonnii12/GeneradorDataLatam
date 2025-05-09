@@ -1,4 +1,4 @@
-# Generador de Datos Latam – Java + SQLite + GitHub Actions
+# Generador de Datos Latam – Java + Maven + JUnit + SQLite + GitHub Actions
 
 Este proyecto genera datos de prueba de usuarios (personas o empresas) con lógica inteligente basada en reglas de negocio, exportando a archivo CSV y base de datos SQLite.
 

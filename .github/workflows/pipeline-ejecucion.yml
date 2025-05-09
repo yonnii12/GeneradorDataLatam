@@ -1,4 +1,4 @@
-name: Ejecucion Generador de Data
+name: Java CI + CSV Artifact 🚀
 
 on:
   push:
@@ -14,20 +14,20 @@ jobs:
       - name: Checkout del repositorio
         uses: actions/checkout@v3
 
-      - name: ☕️ Setup Java 17
+      - name: Setup Java 17
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Ejecutar tests con Maven
+      - name: Ejecutar pruebas con Maven
         run: mvn clean test
 
       - name: Compilar el proyecto
         run: mvn package
 
       - name: Ejecutar generador de usuarios
-        run: java -cp target/classes com.latam.App 10
+        run: mvn exec:java -Dexec.mainClass="com.latam.App" -Dexec.args="10"
 
       - name: Subir users.csv como artifact
         uses: actions/upload-artifact@v4

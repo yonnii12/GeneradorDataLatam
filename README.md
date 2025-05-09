@@ -63,7 +63,7 @@ git clone https://github.com/yonnii12/GeneradorDataLatam.git
 
 6. Click en Run workflow
 
-7. El pipeline ejecutara la aplicacion y se podra descargar el archivo "users.csv" como artefacto
+7. El pipeline ejecutara la aplicacion y se podra descargar el archivo "users.csv" como artefacto desde el job llamado "Subir users.csv como artifact"
 
 
   

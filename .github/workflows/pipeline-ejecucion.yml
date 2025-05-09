@@ -9,7 +9,7 @@ on:
         default: '100'
 
 jobs:
-  generar-csv:
+  generar-csv-ejecutar-pruebas:
     runs-on: ubuntu-latest
 
     steps:

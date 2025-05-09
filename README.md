@@ -7,29 +7,29 @@ Incluye:
 
 - Orientación a objetos (POO)
   
-    Encapsulamiento: Clases Person, Company y User definen atributos private + getters
-    Abstracción: Clase abstracta User, que define estructura general y obliga a implementar métodos
-    Herencia: Person y Company extienden de User
-    Polimorfismo: generateDocument() y getLanguage() son métodos sobrescritos en Person y Company
+    - Encapsulamiento: Clases Person, Company y User definen atributos private + getters 
+    - Abstracción: Clase abstracta User, que define estructura general y obliga a implementar métodos 
+    - Herencia: Person y Company extienden de User 
+    - Polimorfismo: generateDocument() y getLanguage() son métodos sobrescritos en Person y Company<br><br>
   
 - Patrones de diseño (Factory, Singleton)
 
-    Factory: Clase UserFactory implementa el patrón Factory para crear dinámicamente User
-    Singleton: Clase DatabaseManager implementa Singleton para una única instancia de conexión DB
+    - Factory: Clase UserFactory implementa el patrón Factory para crear dinámicamente User
+    - Singleton: Clase DatabaseManager implementa Singleton para una única instancia de conexión DB<br><br>
 
 - Principios SOLID (3)
 
-    Single Responsibility: Cada clase tiene una sola responsabilidad (por ejemplo UserFactory, DatabaseManager, App)
-    Open/Closed: Las clases User, Person, Company pueden extenderse sin modificar el código base
-    Liskov Substitution: Person y Company se pueden usar donde se espera un User
+    - Single Responsibility: Cada clase tiene una sola responsabilidad (por ejemplo UserFactory, DatabaseManager, App)
+    - Open/Closed: Las clases User, Person, Company pueden extenderse sin modificar el código base
+    - Liskov Substitution: Person y Company se pueden usar donde se espera un User<br><br>
 
 - Test unitarios con JUnit
 
-    Se generan test con Junit para validar las reglas de negocio expuestas en el ejercicio
+    - Se generan test con Junit para validar las reglas de negocio expuestas en el ejercicio<br><br>
 
 - Ejecución automatizada desde GitHub Actions mediante workflow
 
-    Se configura pipeline reusable para ejecutar pruebas y correr aplicacion de "generacion de datas" desde GitHub Actions inluyendo la cantidad de datos que se desean generar
+    - Se configura pipeline reusable para ejecutar pruebas y correr aplicacion de "generacion de datas" desde GitHub Actions inluyendo la cantidad de datos que se desean generar
   
 
 # Pasos para ejecutar localmente
